@@ -1,6 +1,6 @@
 :root {
     --branco-principal: #ffffff;
-    --cinza-secundario: #c0c0c0;
+    --cinza-secundario: hsl(0, 0%, 75%);
     --botao-rosa: #ef9acd;
     --cor-de-fundo: #00030c;
     --fonte-principal: 'Inter';
@@ -66,4 +66,24 @@ body {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
 }
