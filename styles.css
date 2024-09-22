@@ -1,8 +1,8 @@
 :root {
-    --branco-principal: #ffffff;
+    --branco-principal: rgb(255, 255, 255);
     --cinza-secundario: hsl(0, 0%, 75%);
-    --botao-rosa: #ef9acd;
-    --cor-de-fundo: #00030c;
+    --botao-rosa: hsl(324, 73%, 77%);
+    --cor-de-fundo: hwb(0 0% 100%);
     --fonte-principal: 'Inter';
 }
 
@@ -86,4 +86,13 @@ body {
 
 .descricao__texto {
     color: var(--cinza-secundario);
+}
+
+.terciario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
